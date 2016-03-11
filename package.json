@@ -20,11 +20,12 @@
   },
   "homepage": "https://github.com/leocamello/generator-unity#readme",
   "dependencies": {
-    "yeoman-generator": "^0.22.5"
+    "yeoman-generator": "^0.22.5",
+    "yosay": "^1.1.0"
   },
   "devDependencies": {
     "mocha": "^2.4.5"
-  }
+  },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha ./test"
   }
