@@ -1,0 +1,28 @@
+{
+  "name": "generator-unity",
+  "version": "0.0.1",
+  "description": "Yeoman generator for Unity 5 projects",
+  "keywords": [
+    "yeoman-generator",
+    "Unity3D",
+    "Unity5",
+    "Unity"
+  ],
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leocamello/generator-unity.git"
+  },
+  "author": "Leonardo Nascimento",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leocamello/generator-unity/issues"
+  },
+  "homepage": "https://github.com/leocamello/generator-unity#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.22.5"
+  }
+}
