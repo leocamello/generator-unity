@@ -9,9 +9,6 @@
     "Unity"
   ],
   "main": "app/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leocamello/generator-unity.git"
@@ -24,5 +21,11 @@
   "homepage": "https://github.com/leocamello/generator-unity#readme",
   "dependencies": {
     "yeoman-generator": "^0.22.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test"
   }
 }
